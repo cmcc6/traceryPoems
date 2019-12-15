@@ -1,0 +1,22 @@
+{
+	"move": ["step", "expand", "forge"],
+	"agent": ["American", "Congress", "security", "families", "Iraq", "freedom", "terrorists", "leader", "gun", "citizen", "worker", "school", "legislation", "technology", "parent", "troop", "God", "crime", "welfare", "weapon"],
+	"transVerb": ["make", "support", "protect", "trust in", "stand against", "strengthen", "ask you to pass", "bless", "budget", "choose", "change", "reform", "reduce"],
+	"emotion": ["courage", "pride", "grief", "terror"],
+	"substance": ["#emotion#", "tax", "drugs", "God"],
+	"adj": ["together", "united", "important", "young", "bipartisan", "largest", "great", "human", "vital"],
+	"doThing": [],
+	"verb": ["act", "fight", "work", "succeed", "invest", "dream"],
+	"ground": ["nation", "country", "children", "economy", "future", "opportunity", "progress", "community", "history", "humanity", "values"],
+	"poeticAdj": ["#substance#-#verb.ed#"],
+	"poeticDesc": ["#poeticAdj#", "by #substance# #verb#'d", "#adj# with #substance#", "#verb.ed# with #substance#"],
+	"ah": ["ah", "alas", "oh", "yet", "but", "and"],
+	"on": ["on", "in", "above", "beneath", "under", "by"],
+	"punctutation": [",", ":", " ", "!", ".", "?"],
+	"noun": ["#ground#", "#agent#"],
+	"audience": ["(APPLAUSE)", "(LAUGHTER)"],
+	"line": ["My #noun#, #poeticDesc#, my #adj# one", "More #adj# than #noun# #poeticDesc#", "#move.capitalize# with me #on# #poeticAdj# #ground#", "The #agent.s# #move#, #adj# and #adj#", "#poeticDesc.capitalize#, #poeticDesc#, #ah#, #poeticDesc#", "How #adj# is the #poeticDesc# #sub#", "#poeticDesc.capitalize# with #emotion#, #transVerb.s# the #noun#", "#audience#"],
+	"poem": ["#line##punctutation# <br> #line##punctutation# <br> #line##punctutation# <br> #line#."],
+	"origin": ["#[sub:#noun#]poem#"]
+}
+

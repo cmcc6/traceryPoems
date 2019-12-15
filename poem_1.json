@@ -1,0 +1,21 @@
+{
+	"move": ["step", "move", "rise", "grow", "order", "smuggle"],
+	"bird": ["woman", "citizen", "middle-class worker", "job", "astronaut", "economy"],
+	"agent": ["African-American", "administration", "#bird#", "Congress", "company", "military", "investigation", "law", "MS-13 gang member", "illegal alien", "our brave ICE officers", "15,000 young American men", "citizens", "God", "my administration", "the American", "illegal immigration"],
+	"transVerb": ["create", "pass", "eliminate", "unleash", "welcome", "defend", "build", "mistreat", "trade", "confront", "control", "cut"],
+	"emotion": ["hope", "courage", "inspiration", "pain", "love"],
+	"substance": ["#emotion#", "drug", "steel", "concrete", "homeland", "heroin", "cocaine"],
+	"adj": ["unfair", "illegal", "unprecedented", "bipartisan", "groundbreaking", "unpopular", "strong", "foolish", "brave", "very dangerous", "incredible", "here tonight"],
+	"doThing": [],
+	"verb": ["thank", "work", "impose", "require", "commit", "said it couldn't be done", "win", "suffer"],
+	"ground": ["homeland", "union", "Southern border", "state", "America", "victory", "prison", "legislation"],
+	"poeticAdj": ["#substance#-#verb.ed#"],
+	"poeticDesc": ["#poeticAdj#", "by #substance# #verb#'d", "#adj# with #substance#", "#verb.ed# with #substance#"],
+	"ah": ["ah", "alas", "oh", "yet", "but", "and"],
+	"on": ["on", "in", "above", "beneath", "under", "by"],
+	"punctutation": [",", ":", " ", "!", ".", "?"],
+	"noun": ["#ground#", "#agent#"],
+	"line": ["My #noun#, #poeticDesc#, my #adj# one", "More #adj# than #noun# #poeticDesc#", "#move.capitalize# with me #on# #poeticAdj# #ground#", "The #agent.s# #move#, #adj# and #adj#", "#poeticDesc.capitalize#, #poeticDesc#, #ah#, #poeticDesc#", "How #adj# is the #poeticDesc# #sub#", "#poeticDesc.capitalize# with #emotion#, #transVerb.s# the #noun#"],
+	"poem": ["#line##punctutation#  <br> #line##punctutation#  <br> #line##punctutation# <br> #line#."],
+	"origin": ["#[sub:#noun#]poem#"]
+}
