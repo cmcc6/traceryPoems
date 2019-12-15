@@ -1,7 +1,7 @@
 {
 	"move": ["step", "move", "rise", "grow", "order", "smuggle"],
 	"bird": ["woman", "citizen", "middle-class worker", "job", "astronaut", "economy"],
-	"agent": ["African-American", "administration", "#bird#", "Congress", "company", "military", "investigation", "law", "MS-13 gang member", "illegal alien", "our brave ICE officers", "15,000 young American men", "citizens", "God", "my administration", "the American", "illegal immigration"],
+	"agent": ["African-American", "administration", "#bird#", "Congress", "company", "military", "investigation", "law", "MS-13 gang member", "illegal alien", "our brave ICE officers", "15,000 young American men", "God", "my administration", "the American", "illegal immigration"],
 	"transVerb": ["create", "pass", "eliminate", "unleash", "welcome", "defend", "build", "mistreat", "trade", "confront", "control", "cut"],
 	"emotion": ["hope", "courage", "inspiration", "pain", "love"],
 	"substance": ["#emotion#", "drug", "steel", "concrete", "homeland", "heroin", "cocaine"],
